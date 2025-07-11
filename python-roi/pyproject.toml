@@ -1,0 +1,16 @@
+[project]
+name = "python-roi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.4.4",
+    "matplotlib>=3.10.3",
+    "notebook>=7.4.4",
+    "pandas>=2.3.1",
+    "pumpy>=1.1.3",
+    "scikit-learn>=1.7.0",
+    "statsmodels>=0.14.5",
+    "xgboost>=3.0.2",
+]

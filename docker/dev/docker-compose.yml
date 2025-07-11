@@ -1,0 +1,12 @@
+services:
+  python-roi:
+    build:
+        # context starts in root folder
+        context: ../../
+        dockerfile: docker/dev/python/Dockerfile
+    volumes:
+      - ../../:/python-roi
+    working_dir: /python-roi/python-roi
+    command: sh -c "uv sync --locked && sleep infinity"
+    ports:
+      - "8001:8001"
