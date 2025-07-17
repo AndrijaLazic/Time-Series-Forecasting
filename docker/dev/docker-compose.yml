@@ -9,4 +9,4 @@ services:
     working_dir: /python-roi/python-roi
     command: sh -c "uv sync --locked && sleep infinity"
     ports:
-      - "8001:8001"
+      - "8003:8003"
